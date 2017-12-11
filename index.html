@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <header>
+    </header>
+    <form>
+      <label>
+        <p>text input</p>
+        <input type="text" placeholder="placeholder text" required>
+      </label>
+      <label>
+        <p>text input w/ validation error</p>
+        <input type="text" placeholder="placeholder text" required>
+      </label>
+      <p>select box</p>
+      <select name="select box"> <!--Supplement an id here instead of using 'name'-->
+        <option value="value1">Option 1</option>
+        <option value="value2">Option 2</option>
+        <option value="value3">Option 3</option>
+      </select>
+      <p>select box - open</p>
+      <select name="select box - open"> <!--Supplement an id here instead of using 'name'-->
+        <option value="value1">Option 1</option>
+        <option value="value2">Option 2</option>
+        <option value="value3">Option 3</option>
+        <option value="value1">Option 4</option>
+        <option value="value2">Option 5</option>
+      </select>
+      <ul>
+        <li id="checkBox">
+          <h2>checkbox</h2>
+        </li>
+        <li id="radio">
+          <h2>radio</h2>
+        </li>
+        <li id="submit">
+          <h2>buttons</h2>
+          <button class="btns" id="btn1">submit</button>
+          <button class="btns" id="btn2">submit</button>
+        </li>
+      </ul>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>

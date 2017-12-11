@@ -1,0 +1,56 @@
+html {
+  width: 480px;
+  margin: 0 auto;
+  font-family: arial;
+  font-size: 20px;
+}
+
+header {
+  height: 100px;
+}
+
+form h2 {
+  margin-bottom: 10px;
+}
+
+form p {
+  margin-bottom: 10px;
+}
+
+form {
+  float: left;
+}
+
+form label input {
+  padding: 10px;
+  width: 250px;
+  margin-bottom: 40px;
+}
+
+form select {
+  padding: 10px;
+  width: 275px;
+  margin-bottom: 40px;
+}
+
+ul li {
+  text-decoration: none;
+}
+
+.btns {
+  width: 110px;
+  padding: 12px;
+  font-family: arial;
+  font-size: 15px;
+  border: none;
+}
+
+#btn1 {
+  background-color: #999;
+  color: #333;
+}
+
+#btn2 {
+  background-color: #444;
+  color: white;
+}
