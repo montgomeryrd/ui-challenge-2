@@ -2,10 +2,11 @@
 
 var sprite = require('node-sprite');
 
-sprite.sprites({path: './sprites'}, function(err, result) {
-  var globalSprite = result['global'];
-  var animalsSprite = result['animals'];
+sprite.sprites({path: '../sprites'}, function(err, result) {
+  var globalSprite = result['form-elements-sprite.png'];
   console.log(globalSprite.filename());
-  console.log(animalsSprite.filename());
-  console.log('animals/duck', animalsSprite.image('duck'));
 });
+
+
+var sprity = require('sprity');
+sprity.create(options, cb);
